@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catzu</title>
+    <link rel="shortcut icon" href="img/logo-2.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/44fb2704eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script type="module" defer src="js/controller.js"></script>
+  </head>
+  <body>
+    <nav class="nav-bar container">
+      <div class="bars-border">
+        <div class="bar-left"><span></span></div>
+        <span class="middle-dot"></span>
+        <div class="bar-right"><span></span></div>
+      </div>
+      <div class="bars">
+        <i class="fa-solid fa-bars bars-list"></i>
+      </div>
+
+      <ul class="links animeate-mov">
+        <li>
+          <a href="#"
+            >CATEGORY
+            <img
+              class="arrow"
+              src="./icons/angle-small-down.png"
+              alt="arrow-down"
+          /></a>
+
+          <ul class="category">
+            <li>
+              <a>Electronics</a>
+            </li>
+            <li>
+              <a>Electronics</a>
+            </li>
+            <li>
+              <a>Electronics</a>
+            </li>
+            <li>
+              <a>Electronics</a>
+            </li>
+            <li>
+              <a>Electronics</a>
+            </li>
+            <li>
+              <a>Electronics</a>
+            </li>
+            <li>
+              <a>Electronics</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="">BRANDS</a>
+        </li>
+
+        <li>
+          <a href="">DEALS</a>
+        </li>
+
+        <li>
+          <a href="">DELBERY</a>
+        </li>
+
+        <li>
+          <a href="#">SELL</a>
+        </li>
+      </ul>
+
+      <h1
+        style="display: flex; justify-content: center; align-items: center"
+        class="logo"
+      >
+        <div style="position: relative; width: fit-content">
+          <img
+            style="position: absolute; left: -21px; bottom: -5px; width: 30px"
+            src="img/logo-2.png"
+          />
+          Catzu
+        </div>
+      </h1>
+
+      <ul class="socials">
+        <li>
+          <form class="search-bar__form bar-top search-shrink" action="">
+            <input class="search-bar" placeholder="Search" type="text" />
+            <button class="search-btn" type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </form>
+          <i class="fa-solid fa-magnifying-glass glass-show"></i>
+        </li>
+        <li>
+          <i class="fa-regular fa-user"></i>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-regular fa-heart"></i>
+          </a>
+        </li>
+
+        <li>
+          <a href="#">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </a>
+        </li>
+      </ul>
+
+      <form class="search-bar__form bar-bottom" action="">
+        <input class="search-bar" placeholder="Search" type="text" />
+        <button class="search-btn" type="submit">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+    </nav>
+
+    <section class="galary" aria-label="Newest Photos">
+      <div class="carousel container" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          <i class="fa-solid fa-left-long"></i>
+        </button>
+
+        <button class="carousel-button next" data-carousel-button="next">
+          <i class="fa-solid fa-right-long"></i>
+        </button>
+
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img src=" img/veraitiyCategory.jpeg" alt="Nature Image #1" />
+          </li>
+
+          <li class="slide">
+            <img src="img/bear_aotwCategory.jpg" alt="Nature Image #2" />
+          </li>
+
+          <li class="slide">
+            <img src="img/CheezIt_Teaser1_Still.png" alt="Nature Image #3" />
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="wrapper container">
+      <i id="left" class="fa-solid fa-angle-left"></i>
+      <ul class="carousel-slide">
+        <li class="card">
+          <div class="img">
+            <img
+              src="img/Examples of Creative Ads Using Visual Metaphors - Creatopy.jpeg"
+              alt="img"
+              draggable="false"
+            />
+          </div>
+          <h2>Title</h2>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="img/bear_aotwCategory.jpg" alt="img" draggable="false" />
+          </div>
+          <h2>Title</h2>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img
+              src="img/0178929e8a89c70e1cd029da5bfaa0d8Category.jpg"
+              alt="img"
+              draggable="false"
+            />
+          </div>
+          <h2>Title</h2>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="img/booksCategory.jpg" alt="img" draggable="false" />
+          </div>
+          <h2>Title</h2>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img
+              src="img/70c4df64df220d9af06b26b45602058bCategoryCategory.jpg"
+              alt="img"
+              draggable="false"
+            />
+          </div>
+          <h2>Title</h2>
+        </li>
+        <li class="card">
+          <div class="img">
+            <img src="./img/get20off.jpeg" alt="img" draggable="false" />
+          </div>
+          <h2>Title</h2>
+        </li>
+
+        <li class="card">
+          <div class="img">
+            <img src="img/carsCategory.jpg" alt="img" draggable="false" />
+          </div>
+          <h2>Title</h2>
+        </li>
+
+        <li class="card">
+          <div class="img">
+            <img src="img/grocoriesCategory.jpg" alt="img" draggable="false" />
+          </div>
+          <h2>Title</h2>
+        </li>
+
+        <li class="card">
+          <div class="img">
+            <img src="img/ferCategory.jpg" alt="img" draggable="false" />
+          </div>
+          <h2>Title</h2>
+        </li>
+
+        <li class="card">
+          <div class="img">
+            <img
+              src="img/electronicsCategory.jpg"
+              alt="img"
+              draggable="false"
+            />
+          </div>
+          <h2>Title</h2>
+        </li>
+      </ul>
+      <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+
+    <section class="product-container container">
+      <div class="category-title__sort">
+        <h1 class="cate-title">Variety</h1>
+        <div class="filter-sort">
+          <div class="filter">
+            <span class="optians-btn filter-by">
+              FILTERS
+              <span class="nums-filter">7</span>
+            </span>
+
+            <span
+              data-query="Variety"
+              class="optians-btn filter-op filter-sec btn--active"
+            >
+              All
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+
+            <span
+              data-query="electronics"
+              class="optians-btn filter-op filter-sec"
+            >
+              ELECTRONICS
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span
+              data-query="clothing"
+              class="optians-btn filter-op filter-sec"
+            >
+              FASHION
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span
+              data-amount="[0,50]"
+              class="optians-btn filter-op filter-range"
+            >
+              $0 - $50
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span
+              data-amount="[50,200]"
+              class="optians-btn filter-op filter-range"
+            >
+              $50 - $200
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span
+              data-amount="[200,600]"
+              class="optians-btn filter-op filter-range"
+            >
+              $200 - $600
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span
+              data-from="600"
+              data-to="above"
+              class="optians-btn filter-op filter-range"
+            >
+              $600 - above
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+          </div>
+
+          <div class="sorting">
+            <span class="optians-btn sort-by">
+              SORT BY
+              <div class="close-btn__x">
+                <div class="right plus-sgin__selected">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span data-sort="price" class="optians-btn sort-op">
+              PRICE
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span data-sort="title" class="optians-btn sort-op" title="adas">
+              BRAND
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+            <span data-sort="rating" class="optians-btn sort-op">
+              RATING
+              <div class="close-btn__x">
+                <div class="right">
+                  <span class="left"></span>
+                </div>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="products-list">
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+        <div class="product-item animate-pulse loading-item">
+          <a href="productView.html">
+            <div></div>
+            <p></p>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+            <div class="price praice-discount">
+              <del class="discount"></del> <span class="price"></span>
+            </div>
+          </a>
+        </div>
+
+        <!-- <div data-item-id ="" class="product-item animate-pulse" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg  " alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+
+
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+
+
+    <div data-wished="false" data-item-id="" class="product-item" >
+      <div class="card" href="productView.html" >
+      <div class="img-container" >
+        <img  src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p class="item-desc" >Descreption of the product and it will have to be kinda of long</p>
+        <div class="rating" data-rate="" >2.1/5</div>
+        <div class="praice-discount">
+               <div class="price" >
+                <del class="discount">$290</del> 
+                <span class="price only-price" >$190</span>
+               </div>
+           <span class="wish-logo" > <i class="fa-regular fa-heart"></i></span>
+          </div>
+
+      </div>
+    </div>
+     
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div>
+     
+
+    <div class="product-item" >
+      <a href="productView.html" >
+      <div>
+        <img src="./img/elin-content.jpg" alt="images">
+      </div>
+        <p>Descreption of the product and it will have to be kinda of long</p>
+        <div class="price praice-discount"> <del class="discount">$290</del> <span class="price" >$190</span></div>
+      </a>
+    </div> 
+      --></div>
+
+      <div class="pagination">
+        <button class="btn--inline pagination__btn--prev">
+          <i class="fa-solid fa-angle-left page-left"></i>
+          <span>Page 1</span>
+        </button>
+        <span class="curr-page">1</span>
+        <button class="btn--inline pagination__btn--next">
+          <span>Page 3</span>
+          <i class="fa-solid fa-angle-right page-right"></i>
+        </button>
+      </div>
+    </section>
+
+    <!-- <div class="close-btn__x" >
+ <div class="right" >
+  <span class="left" ></span>
+ </div>
+  
+</div>
+<div class="" >
+  <div class="right" >
+   <span class="left" >asdads</span>
+  </div>
+   
+ </div>
+ 
+
+<div>
+  <img src="./img/1200px-Plus_symbol.svg.png" alt="">
+</div> -->
+
+    <div class="layout-fade">
+      <div data-id="1" class="selected-product">
+        <div class="left-side">
+          <i class="fa-solid fa-xmark close-btn"></i>
+          <div class="product-preview">
+            <div class="images-container">
+              <img
+                src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                alt="image"
+              />
+              <img
+                src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                alt="image"
+              />
+              <img
+                src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                alt="image"
+              />
+              <div class="arrow arrow-right">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </div>
+              <div class="arrow arrow-left">
+                <i class="fa-solid fa-arrow-left-long"></i>
+              </div>
+            </div>
+
+            <div class="dots">
+              <div class="dot dot--active" data-slide="">
+                <img
+                  src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                  alt="el.title"
+                />
+              </div>
+
+              <div class="dot dot--active" data-slide="">
+                <img
+                  src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                  alt="el.title"
+                />
+              </div>
+
+              <div class="dot dot--active" data-slide="">
+                <img
+                  src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                  alt="el.title"
+                />
+              </div>
+
+              <div class="dot dot--active" data-slide="">
+                <img
+                  src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                  alt="el.title"
+                />
+              </div>
+
+              <div class="dot dot--active" data-slide="">
+                <img
+                  src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                  alt="el.title"
+                />
+              </div>
+
+              <div class="dot dot--active" data-slide="">
+                <img
+                  src="img/42b1b57f6c04737a85b545f06076ee0fCategory .jpg"
+                  alt="el.title"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="product-detials">
+            <h2 class="product-title">Men's Crew Fitness Hoodie 100</h2>
+            <div class="prices-rating">
+              <div class="prices">
+                <del class="discount">$290</del> <span class="price">$190</span>
+              </div>
+
+              <div class="rating-stars">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="rating-count">300</span>
+              </div>
+            </div>
+            <p class="discreption">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam,
+              ducimus cumque! Nam, sapiente. Qui aliquid, illum molestiae,
+              minima enim libero perferendis facere commodi eveniet eligendi
+              sunt mollitia, recusandae esse expedita.
+            </p>
+
+            <div class="sizes">
+              <h3>SIZES</h3>
+              <div class="size-containers">
+                <span data-size="xs" class="size-unit optians-btn">XS</span>
+                <span data-size="s" class="size-unit optians-btn btn--active"
+                  >S</span
+                >
+                <span data-size="m" class="size-unit optians-btn">M</span>
+                <span data-size="l" class="size-unit optians-btn">L</span>
+                <span data-size="xl" class="size-unit optians-btn">XL</span>
+              </div>
+            </div>
+
+            <div class="add-cart add-wish">
+              <span class="add-cart__btn optians-btn btn--active"
+                >ADD TO CART</span
+              >
+
+              <div class="count--wish">
+                <div class="amount-purchsed">
+                  <div class="arrows up-arrow">
+                    <i class="fa-solid fa-sort-up"></i>
+                  </div>
+                  <div class="amout">1</div>
+                  <div class="arrows down-arrow">
+                    <i class="fa-solid fa-sort-down"></i>
+                  </div>
+                </div>
+
+                <span class="wish-logo" title="add to wishlist">
+                  <i class="fa-regular fa-heart"></i
+                ></span>
+              </div>
+            </div>
+            <div class="delivery">
+              <span>
+                <i class="fa-solid fa-truck"></i>
+              </span>
+              <span class="fonts">Free delivery on orders over $30.0</span>
+            </div>
+            <div class="detials">
+              <h3 class="det-title">CHARACTERISTICS</h3>
+              <div class="del-section brand">
+                <span class="tag">Brand</span>
+                <span class="value">Pinko</span>
+              </div>
+
+              <div class="del-section collection">
+                <span class="tag">Brand</span>
+                <span class="value">Pinko</span>
+              </div>
+
+              <div class="del-section item-no">
+                <span class="tag">item no.</span>
+                <span class="value">21</span>
+              </div>
+
+              <div class="del-section matrial">
+                <span class="tag">Brand</span>
+                <span class="value">Pinko</span>
+              </div>
+
+              <div class="brand">
+                <span class="tag">Care recommendations</span>
+                <span class="value">machine wash</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- To Scroll all the way up -->
+    <a class="go-up hidden" href="#">
+      <i class="fa-solid fa-up-long"></i>
+    </a>
+
+    <footer class="feet">
+      <div class="left-feet">
+        <a href="#">left feet</a>
+        <a href="#">left feet</a>
+        <a href="#">left feet</a>
+        <a href="#">left feet</a>
+        <a href="#">left feet</a>
+        <a href="#">left feet</a>
+      </div>
+
+      <div>
+        <img src="./img/logo-2.png" alt="cat" />
+      </div>
+
+      <div class="left-right">
+        <a href="#">left right</a>
+        <a href="#">left right</a>
+        <a href="#">left right</a>
+        <a href="#">left right</a>
+        <a href="#">left right</a>
+        <a href="#">left right</a>
+      </div>
+    </footer>
+  </body>
+</html>
