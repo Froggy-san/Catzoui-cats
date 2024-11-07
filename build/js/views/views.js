@@ -52,6 +52,9 @@ export default class View {
   _clear() {
     this._perentElement.innerHTML = "";
   }
+
+
+  
   renderError(message = this._errorMessage) {
     const markup = `
        <div class="message">

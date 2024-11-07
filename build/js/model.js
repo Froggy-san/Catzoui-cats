@@ -502,9 +502,6 @@ export const loadProducts = async function () {
     });
   });
 
-  console.log(data);
-  console.log(Products);
-
   try {
   } catch (err) {
     throw err;
@@ -513,30 +510,23 @@ export const loadProducts = async function () {
 
 export const loadSearchResults = async function (products, query) {
   try {
- 
     results = products.filter((el) => {
-
       if (
         (el.category && typeof el.category === "string") ||
         (el.generalCategory && typeof el.generalCategory === "string")
       ) {
-     
         const p = [
           ...String(el.category || "").split(" "),
           ...String(el.generalCategory || "").split(" "),
         ];
-      
+
         return p.some((element) => {
-       
           return element.toLowerCase().includes(query);
         });
       } else {
-   
         return [];
       }
     });
-
-
   } catch (err) {
     console.error(err);
   }
